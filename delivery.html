@@ -1,0 +1,122 @@
+<html>
+<head>
+	<title>Nuevo</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1><center><u>--A-T-O-M-I-C-K--</u></center></h1>
+<style>
+	a{
+		margin: 15px;
+		text-decoration: none;
+		color: black;
+	}
+</style>
+
+<style>
+	form{
+		font-family: 'Times New Roman', Times, serif;
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 50px 55px;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+		border-radius: 20px;
+		text-align: center;
+		width: 340px;
+}
+.input-group{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+h2{
+	color: rgb(129, 175, 92);
+	font-size: 35px;
+}
+label{
+	color: rgb(129, 175, 92);
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+input, textarea{
+	padding: 17px 25px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	background-color: rgb(44, 80, 6);
+	border: 2px solid;
+	color: #b46820;
+	outline: none;
+}
+input::placeholder, textarea::placeholder{
+	color: antiquewhite;
+}
+.form-txt{
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.form-txt a{
+	color: aquamarine;
+	font-size: 14px;
+	font-weight: 600;
+}
+.boton{
+	font-size: 16px;
+	color: aliceblue;
+	border: 0;
+	border-radius: 25px;
+	background-color: darkgreen;
+	box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+	cursor: pointer;
+}
+.boton:hover{
+	background-color: #50E04B;
+}
+@media(max-width:991px){
+	body{
+		padding: 30px;
+	}
+	form{
+		padding: 50px 30px;
+		width: 100%;
+	}
+	input{
+		padding: 15px 10px;
+	}
+}
+</style>
+
+<hr size="1.5" color="white">
+<a href="https://kage-no-jitsuryokusha-ni-naritakute-en-espanol.fandom.com/es/wiki/Shadow_Garden"><img src="logotipo.jpg" alt="logodelaempresa" width="80px" height="80px"></a><a href="https://concepto.de/bomba-atomica/"><img src="2logotipo.jpg" alt="productosmaspopulares" width="80px" height="80px" align="right"></a>  <p align="center"><font size="5"> <a href="index.html">Home</a> <a href="delivery.html">Delivery</a> <a href="nostros.html">Nosotros</a> </font></p>
+<hr size="1.5" color="white">
+<br>
+<br>
+<h2>Contacto</h2>
+<form action="https://formsubmit.co/antoniaugusto238@gmail.com"  method="POST">
+	<div class="input-group">
+		<label for="bame">Nombre</label>
+		<input type="text" name="name" id="name" placeholder="Nombre">
+
+		<label for="phone">Telefono</label>
+		<input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+		<label for="emial">Correpo Electronico</label>
+		<input type="email" name="email" id="email" placeholder="correo Electronico">
+
+		<label for="message">Informacion de entrega</label>
+		<textarea name="message" id="message" cols="30" rows="6" placeholder="Informacion de entrega"></textarea>
+
+		<div class="form-txt">
+			<a href="politicap.Html">Politica de Privacidad</a>
+			<a href="termic.html">Termnios y Condiciones</a>
+		</div>
+
+		<input class="boton" type="submit" value="Enviar">
+	</div>
+</form>
+</body>
+</html>
